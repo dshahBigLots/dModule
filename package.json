@@ -1,6 +1,6 @@
 {
   "name": "darshan-sample-module-bg",
-  "version": "0.0.0",
+  "version": "1.0.2",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^5.2.0",
     "@angular/common": "^5.2.0",
@@ -22,6 +22,8 @@
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
     "core-js": "^2.4.1",
+    "es6-shim": "0.35.3",
+    "reflect-metadata": "0.1.12",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
